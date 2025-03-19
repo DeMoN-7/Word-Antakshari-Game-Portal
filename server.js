@@ -8,12 +8,10 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://localhost:27017/antakshari", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect("mongodb://localhost:27017/antakshari")
   .then(() => console.log("MongoDB Connected!"))
   .catch((err) => console.log(err));
+
 
 // API Routes
 app.use("/api/game", gameRoutes);
