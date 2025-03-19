@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Antakshari Game</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Word Antakshari Game 🎮</h1>
+    <div id="game">
+      <p id="startWord">Click Start to Begin!</p>
+      <input type="text" id="userWord" placeholder="Enter your word..." />
+      <button onclick="validateWord()">Submit</button>
+      <button onclick="startGame()">Start Game</button>
+    </div>
+    <div id="status"></div>
+    <h2>🏆 Leaderboard 🏆</h2>
+    <ul id="leaderboard"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
