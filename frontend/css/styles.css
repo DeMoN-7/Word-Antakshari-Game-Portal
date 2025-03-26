@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f5;
+    background-color: #6c6ce2;
     text-align: center;
     margin-top: 50px;
   }
@@ -8,7 +8,7 @@ body {
   .container {
     width: 50%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #824343;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
